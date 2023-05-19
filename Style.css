@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  #quiz-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  #question {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #choices {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #choices li {
+    margin-bottom: 10px;
+  }
+  
+  #submit-btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #score {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
